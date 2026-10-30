@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep the example environment file
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+crash.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Operating system
+.DS_Store
+Thumbs.db
